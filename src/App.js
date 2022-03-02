@@ -1,3 +1,5 @@
+import Keyboard from './Components/Keyboard'
+import './App.css'
 
 
 function App() {
@@ -5,9 +7,14 @@ function App() {
 
 
   return (
-    <>
+    <div className="container">
+
+    <div className='keys'>
+    <Keyboard />
+    </div>
     
-    </>
+    
+    </div>
   );
 }
 
