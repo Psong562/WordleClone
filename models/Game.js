@@ -30,7 +30,7 @@ const Game = new Schema({
     type: String,
     maxlength: 5,
     minlength: 1
-  },]
+  }],
   presentCharArray: [{
     type: String,
     maxlength: 5,
