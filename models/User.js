@@ -18,11 +18,9 @@ const User = new Schema({
     required: true,
     match: [/^(?=[a-zA-Z0-9._]{3,20}$)(?!.*[_.]{2})[^_.].*[^_.]$/,'Please fill a valid username']
   },
-  
-  
   games: [{
     type: Schema.Types.ObjectId,
-    ref: 'game'
+    ref: 'Game'
   }], 
 
 

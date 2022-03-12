@@ -54,7 +54,7 @@ const Game = new Schema({
   }
 }, { timestamps: true })
 
-module.exports = model('game', Game)
+module.exports = model('Game', Game)
 
 
 
