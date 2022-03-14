@@ -46,15 +46,15 @@ const Game = new Schema({
   rowIndex: [{
     type: Number,
     maxlength: 5,
-    minlength: 1,
+    minlength: 0,
     required: false
   }],
-  solution: [{
+  solution: {
     type: String,
     maxlength: 5,
     minlength: 5,
     required: true
-  }],
+  },
  
   user: {
     type: Schema.Types.ObjectId,
